@@ -1,18 +1,19 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "advdelight",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Adventurer's Delight",
+	"description": "Cheese :D",
 	"authors": [
-		"Me!"
+		"ShadowFlame",
+		"Nightshade"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/advdelight/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
