@@ -1,0 +1,23 @@
+{
+  "item.advdelight.kebab": "Kebab",
+  "item.advdelight.quatro_formagi_pizza": "Quatro Formagi Pizza",
+  "item.advdelight.ham_and_cheese_pizza": "Ham and Cheese Pizza",
+  "item.advdelight.pepperoni_pizza": "Pepperoni Pizza",
+  "item.advdelight.pear": "Pear",
+  "item.advdelight.orange": "Orange",
+  "item.advdelight.chorus_pie": "Chorus Pie",
+  "item.advdelight.chorus_pie_slice": "Chorus Pie Slice",
+  "item.advdelight.sausage": "Sausage",
+  "item.advdelight.nether_wart_stew": "Nether Wart Stew",
+  "item.advdelight.warped_wart": "Warped Wart",
+  "item.advdelight.warped_wart_stew": "Warped Wart Stew",
+
+  "block.advdelight.azalea_log": "Azalea Log",
+  "block.advdelight.azalea_wood": "Azalea Wood",
+  "block.advdelight.stripped_azalea_log": "Stripped Azalea Log",
+  "block.advdelight.stripped_azalea_wood": "Stripped Azalea Wood",
+  "block.advdelight.azalea_planks": "Azalea Planks",
+  "block.advdelight.azalea_door": "Azalea Door",
+
+  "itemGroup.advdelight.adventurers_delight": "Adventurer's Delight"
+}

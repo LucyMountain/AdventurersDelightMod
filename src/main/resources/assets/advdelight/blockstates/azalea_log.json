@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "advdelight:block/azalea_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "advdelight:block/azalea_log"
+    },
+    "axis=z": {
+      "model": "advdelight:block/azalea_log_horizontal",
+      "x": 90
+    }
+  }
+}

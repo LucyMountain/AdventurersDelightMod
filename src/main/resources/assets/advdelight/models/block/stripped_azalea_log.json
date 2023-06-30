@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "advdelight:block/stripped_azalea_log_top",
+    "side": "advdelight:block/stripped_azalea_log"
+  }
+}
