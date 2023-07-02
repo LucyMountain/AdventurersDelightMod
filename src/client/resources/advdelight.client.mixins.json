@@ -3,7 +3,10 @@
 	"package": "net.shadow.advdelight.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"AdvDelightMixin"
+		"AdvDelightMixin",
+		"ShrimpSpinMixin",
+		"BlockEntityTypeMixin",
+		"SignTypeAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

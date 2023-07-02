@@ -1,10 +1,13 @@
 package net.shadow.advdelight.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.shadow.advdelight.AdvDelightMod;
+import net.shadow.advdelight.block.ModBlocks;
+import net.shadow.advdelight.entity.ModEntities;
+import net.shadow.advdelight.sound.ModSounds;
 
 public class ModItems {
 
@@ -29,9 +32,21 @@ public class ModItems {
     public static final Item NETHER_WART_STEW = registerItem("nether_wart_stew",
             new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
     public static final Item WARPED_WART = registerItem("warped_wart",
-            new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+            new AliasedBlockItem(ModBlocks.WARPED_WART_CROP, new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
     public static final Item WARPED_WART_STEW = registerItem("warped_wart_stew",
             new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final Item SHRIMP = registerItem("shrimp",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final Item SHRIMP_SPAWN_EGG = registerItem("shrimp_spawn_egg",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final Item SHRIMP_BUCKET = registerItem("shrimp_bucket",
+            new SpawnEggItem(ModEntities.SHRIMP, 0x948e8d, 0x3b3635, new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final Item SPIN_MUSIC_DISC = registerItem("spin_music_disc",
+            new MusicDiscItem(7, ModSounds.SPIN,
+                    new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT).maxCount(1), 28));
+    public static final Item AZALEA_SIGN = registerItem("azalea_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT).maxCount(16),
+                    ModBlocks.AZALEA_SIGN, ModBlocks.AZALEA_WALL_SIGN));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(AdvDelightMod.MOD_ID, name), item);
     }

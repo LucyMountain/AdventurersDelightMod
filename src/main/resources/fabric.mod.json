@@ -24,11 +24,7 @@
 		]
 	},
 	"mixins": [
-		"advdelight.mixins.json",
-		{
-			"config": "advdelight.client.mixins.json",
-			"environment": "client"
-		}
+		"advdelight.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.9",

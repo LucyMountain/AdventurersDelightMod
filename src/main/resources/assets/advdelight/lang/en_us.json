@@ -8,16 +8,34 @@
   "item.advdelight.chorus_pie": "Chorus Pie",
   "item.advdelight.chorus_pie_slice": "Chorus Pie Slice",
   "item.advdelight.sausage": "Sausage",
+
   "item.advdelight.nether_wart_stew": "Nether Wart Stew",
   "item.advdelight.warped_wart": "Warped Wart",
+  "item.advdelight.warped_wart_crop": "Warped Wart Crop",
   "item.advdelight.warped_wart_stew": "Warped Wart Stew",
+
+  "item.advdelight.shrimp": "Shrimp",
+  "item.advdelight.shrimp_bucket": "Bucket of Shrimp",
+  "item.advdelight.shrimp_spawn_egg": "Shrimp Spawn Egg",
+
+  "item.advdelight.spin_music_disc": "Spin Music Disc",
+  "item.advdelight.spin_music_disc.desc": "Shpeen :D",
 
   "block.advdelight.azalea_log": "Azalea Log",
   "block.advdelight.azalea_wood": "Azalea Wood",
+  "block.advdelight.flowering_azalea_log": "Flowering Azalea Log",
+  "block.advdelight.flowering_azalea_wood": "Flowering Azalea Wood",
   "block.advdelight.stripped_azalea_log": "Stripped Azalea Log",
   "block.advdelight.stripped_azalea_wood": "Stripped Azalea Wood",
   "block.advdelight.azalea_planks": "Azalea Planks",
+  "block.advdelight.azalea_slab": "Azalea Slab",
+  "block.advdelight.azalea_stairs": "Azalea Stairs",
   "block.advdelight.azalea_door": "Azalea Door",
+  "block.advdelight.azalea_trapdoor": "Azalea Trapdoor",
+  "block.advdelight.azalea_button": "Azalea Button",
+  "block.advdelight.azalea_pressure_plate": "Azalea Pressure Plate",
+  "block.advdelight.azalea_sign": "Azalea Sign",
+  "block.advdelight.azalea_wall_sign": "Azalea Wall Sign",
 
   "itemGroup.advdelight.adventurers_delight": "Adventurer's Delight"
 }

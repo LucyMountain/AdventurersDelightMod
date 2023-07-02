@@ -1,0 +1,51 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.shrimp.flop": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"tail2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [8, 0, 0]
+						},
+						"0.375": {
+							"vector": [-8, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.shrimp.idle": {
+			"loop": true,
+			"animation_length": 0.5
+		},
+		"animation.shrimp.spin": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"shrimp": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.5": {
+							"vector": [0, -180, 0]
+						},
+						"5.0": {
+							"vector": [0, -360, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}
