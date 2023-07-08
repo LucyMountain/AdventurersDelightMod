@@ -19,6 +19,10 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
     public static final  Item PEPPERONI_PIZZA = registerItem("pepperoni_pizza",
             new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final  Item HAWAIIAN_PIZZA = registerItem("hawaiian_pizza",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
+    public static final  Item KIWI_PIZZA = registerItem("kiwi_pizza",
+            new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
     public static final  Item PEAR = registerItem("pear",
             new Item(new FabricItemSettings().group(ModItemGroup.ADVENTURERS_DELIGHT)));
     public static final  Item ORANGE = registerItem("orange",

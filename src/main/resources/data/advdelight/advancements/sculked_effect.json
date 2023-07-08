@@ -1,0 +1,36 @@
+{
+  "parent": "advdelight:root",
+  "criteria": {
+    "sculked_effect": {
+      "conditions": {
+        "effects": {
+          "advdelight:sculked": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.advdelight.sculked_effect.description"
+    },
+    "frame": "goal",
+    "hidden": true,
+    "icon": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.advdelight.sculked_effect.title"
+    }
+  },
+  "requirements": [
+    [
+      "sculked_effect"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

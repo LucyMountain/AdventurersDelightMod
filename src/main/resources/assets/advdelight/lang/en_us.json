@@ -3,6 +3,8 @@
   "item.advdelight.quatro_formagi_pizza": "Quatro Formagi Pizza",
   "item.advdelight.ham_and_cheese_pizza": "Ham and Cheese Pizza",
   "item.advdelight.pepperoni_pizza": "Pepperoni Pizza",
+  "item.advdelight.hawaiian_pizza": "Hawaiian Pizza",
+  "item.advdelight.kiwi_pizza": "Kiwi Pizza",
   "item.advdelight.pear": "Pear",
   "item.advdelight.orange": "Orange",
   "item.advdelight.chorus_pie": "Chorus Pie",
@@ -37,5 +39,22 @@
   "block.advdelight.azalea_sign": "Azalea Sign",
   "block.advdelight.azalea_wall_sign": "Azalea Wall Sign",
 
-  "itemGroup.advdelight.adventurers_delight": "Adventurer's Delight"
+  "advancements.advdelight.root.title": "Adventurer Joined the Chat",
+  "advancements.advdelight.root.description": "Test - Make a Crafting Table",
+  "advancements.advdelight.hawaiian_pizza.title": "Why?",
+  "advancements.advdelight.hawaiian_pizza.description": "You couldn't have possibly made it any worse, could you?",
+  "advancements.advdelight.kiwi_pizza.title": "...And You Did",
+  "advancements.advdelight.kiwi_pizza.description": "Probably wouldn't eat that if I were you",
+  "advancements.advdelight.shrimp_spin.title": "Freeshrimp",
+  "advancements.advdelight.shrimp_spin.description": "That guitar solo be bussin' tho",
+  "advancements.advdelight.all_fish.title": "Master Fisherman",
+  "advancements.advdelight.all_fish.description": "Fish all the fish types you can. They may not all be edible though...",
+  "advancements.advdelight.sculked_effect.title": "Sculky",
+  "advancements.advdelight.sculked_effect.description": "Now you know how the Warden sees the world",
+  "advancements.advdelight.ratatouille.title": "Anyone can cook",
+  "advancements.advdelight.ratatouille.description": "You better not have a tiny rat under that hat, Linguini",
+
+  "itemGroup.advdelight.adventurers_delight": "Adventurer's Delight",
+  "effect.advdelight.sculked": "Sculked"
+
 }

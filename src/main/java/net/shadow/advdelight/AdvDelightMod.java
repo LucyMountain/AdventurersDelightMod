@@ -3,6 +3,7 @@ package net.shadow.advdelight;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.shadow.advdelight.block.ModBlocks;
+import net.shadow.advdelight.effect.ModEffects;
 import net.shadow.advdelight.entity.ModEntities;
 import net.shadow.advdelight.entity.custom.ShrimpEntity;
 import net.shadow.advdelight.item.ModItems;
@@ -22,6 +23,8 @@ public class AdvDelightMod implements ModInitializer {
         ModBlocks.registerModBlocks();
 
         ModRegistries.registerStrippables();
+
+        ModEffects.registerEffects();
 
         GeckoLib.initialize();
 

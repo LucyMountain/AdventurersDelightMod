@@ -1,0 +1,37 @@
+{
+  "parent": "advdelight:root",
+  "criteria": {
+    "hawaiian_pizza": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advdelight:pear"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.advdelight.shrimp_spin.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "advdelight:pear"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.advdelight.shrimp_spin.title"
+    }
+  },
+  "requirements": [
+    [
+      "hawaiian_pizza"
+    ]
+  ]
+}

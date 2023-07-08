@@ -1,0 +1,52 @@
+{
+  "parent": "advdelight:hawaiian_pizza",
+  "criteria": {
+    "hawaiian_pizza": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advdelight:hawaiian_pizza"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "kiwi_pizza": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "advdelight:kiwi_pizza"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.advdelight.kiwi_pizza.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "advdelight:kiwi_pizza"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.advdelight.kiwi_pizza.title"
+    }
+  },
+  "requirements": [
+    [
+      "kiwi_pizza"
+    ],
+    [
+      "hawaiian_pizza"
+    ]
+  ]
+}

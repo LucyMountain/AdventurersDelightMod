@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "wooden_button",
   "ingredients": [
     {
       "item": "advdelight:azalea_planks"
     }
   ],
   "result": {
-    "item": "advdelight:azalea_button"
+    "item": "advdelight:azalea_button",
+    "count": 1
   }
 }

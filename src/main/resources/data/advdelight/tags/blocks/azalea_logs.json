@@ -2,8 +2,8 @@
   "replace": false,
   "values": [
     "advdelight:azalea_log",
-    "advdelight:azalea_wood",
     "advdelight:stripped_azalea_log",
+    "advdelight:azalea_wood",
     "advdelight:stripped_azalea_wood"
   ]
 }

@@ -1,15 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "wooden_fence",
   "pattern": [
-    "W#W",
-    "W#W"
+    "PSP",
+    "PSP"
   ],
   "key": {
-    "W": {
+    "P": {
       "item": "advdelight:azalea_planks"
     },
-    "#": {
+    "S": {
       "item": "minecraft:stick"
     }
   },
