@@ -5,8 +5,8 @@
 	"name": "Adventurer's Delight",
 	"description": "Cheese :D",
 	"authors": [
-		"ShadowFlame",
-		"Nightshade"
+		"Nightshade",
+		"ShadowFlame"
 	],
 	"contact": {
 		"homepage": "",
@@ -17,10 +17,10 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.shadow.advdelight.AdvDelightMod"
+			"net.shade.advdelight.AdvDelightMod"
 		],
 		"client": [
-			"net.shadow.advdelight.AdvDelightModClient"
+			"net.shade.advdelight.AdvDelightModClient"
 		]
 	},
 	"mixins": [

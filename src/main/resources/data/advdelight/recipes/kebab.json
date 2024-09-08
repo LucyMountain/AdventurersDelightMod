@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " CM",
+    " MT",
+    "S  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "farmersdelight:tomato"
+    },
+    "C": {
+      "tag": "c:salad_ingredients"
+    },
+    "M": {
+      "tag": "c:meats"
+    }
+  },
+  "result": {
+    "item": "advdelight:kebab",
+    "count": 1
+  }
+}
